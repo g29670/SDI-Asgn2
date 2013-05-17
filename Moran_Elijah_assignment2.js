@@ -1,5 +1,5 @@
 //alert("JavaScript works!");
-//alert("JavaScript works!");
+
 // Author: Elijah Moran
 // Date: 005/16/2013
 // Project: Week 2 – Preparing for work.
@@ -85,3 +85,31 @@ var thingsITakeToWork = function(items, specificThing)
 	console.log("But I forgot my ");
 	return items[specificThing];
 }
+// main line of code, where all functions get called from and return to.
+console.log("My alarm usually wakes me up in the morning  " +
+			"when I remember to set it.");
+
+getOutOfBed(true);
+
+console.log("I have to be at work at 1600 hours.");
+console.log("The supervisor will be very angry if I am late.")
+console.log("Do I still have time to eat something before work " +
+"since its " + theCurrentTime + " hours?");
+
+// using if statements, im able to actually do something with the
+// boolean return of the timeToGetReady function.
+if (timeToGetReady(theCurrentTime) === true)
+{
+console.log("Yes I do!");
+}
+else
+{
+console.log("Oh no! I have to leave right now!");
+}
+console.log("To start my morning, I will brew a cup of coffee which I check on every" +
+			" two minutes.");
+console.log("For a total of " + brewCoffee(numberOfMinutes) + " times");	
+
+console.log("My roomate asks " + conversation(conversation1, conversation2))
+console.log("The things I pack for work are ");
+console.log(thingsITakeToWork(itemsForWorkArray, numberInArray) + " today");
