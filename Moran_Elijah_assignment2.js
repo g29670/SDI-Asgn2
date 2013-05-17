@@ -31,3 +31,21 @@ var getOutOfBed = function (alarm)
 		" to sleep.");
 	}
 }
+
+// Function used to see if I still have time to eat before work. 
+// since it is only 1500 and I leave for work at 1515, I do have time.
+var timeToGetReady = function(time)
+{
+	var outcome;
+	var timeToLeaveForWork = 1515;
+
+	if (timeToLeaveForWork > time)
+	{	
+		outcome = true;
+	}
+	else
+	{
+		outcome = false;
+	}
+	return outcome;	
+}
