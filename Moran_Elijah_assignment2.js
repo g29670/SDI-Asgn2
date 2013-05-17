@@ -65,3 +65,23 @@ while (minutes >= count)
 	}
 	return total;
 }
+
+// My supervisor calls about me having to be at work in 1 hour!
+var conversation = function(first, second)
+{
+	var middle = "Because "
+	var stringTotalConversation = first + middle + second;
+	return stringTotalConversation;
+}
+
+
+// the things I take to work array.
+var thingsITakeToWork = function(items, specificThing)
+{
+	for (i = 0; i < 4; i++)
+	{
+		console.log(items[i]);
+	}
+	console.log("But I forgot my ");
+	return items[specificThing];
+}
