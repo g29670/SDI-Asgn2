@@ -1,6 +1,5 @@
 //alert("JavaScript works!");
-//alert("JavaScript works!");
-//alert("JavaScript works!");
+
 // Author: Elijah Moran
 // Date: 005/16/2013
 // Project: Week 2 – Preparing for work.
