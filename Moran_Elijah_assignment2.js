@@ -49,3 +49,19 @@ var timeToGetReady = function(time)
 	}
 	return outcome;	
 }
+// Brew coffee function.  Basically check on coffee every 2 minutes then count
+// how many times I checked on it in that amount of time!
+var brewCoffee = function(minutes)
+{
+	var total;
+	var count = 2;
+
+while (minutes >= count)
+	{
+		console.log("Checked on Coffee at " + count + " minutes");
+		count = count + 2;
+		total = (count / 2) - 1;
+
+	}
+	return total;
+}
